@@ -1,9 +1,9 @@
 #!/bin/bash
 echo Starting file creation...
-for i in {1..136633}
+for i in {1..2}
 do
  cat <<EOF >./File$i.cls
-public class Foo {
+public class Foo() {
 public Foo {}
 public void badMethod (Integer param){
     param = 4;

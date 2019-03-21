@@ -1,6 +1,6 @@
 #!/bin/bash
 echo Starting file creation...
-for i in {1..240}
+for i in {1..6000}
 do
  cat <<EOF >./File$i.xml
  
